@@ -17,7 +17,7 @@ namespace KodeOppgaveSolve
                         continue;
                     
                     int top = 0, bottom = 0, left = 0, right = 0;
-
+                                        
                     if (i > 0)
                         top = int.Parse(grid[i - 1, j]);
                     if (i < grid.GetLength(0) - 1)
